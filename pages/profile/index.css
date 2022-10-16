@@ -1,1 +1,61 @@
-/* Desenvolva sua estilização aqui...*/
+.box {
+  margin: 10%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divCardHeader {
+  display: flex;
+  gap: 15px;
+}
+
+.div-profile {
+  margin-left: 3%;
+}
+.header img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: 2px solid var(--color-brand-1);
+}
+.header h2 {
+  color: var(--color-grey-7);
+}
+.header p {
+  color: rgba(255, 255, 255, 0.5);
+  width: 400px;
+}
+
+.ulCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.divCards {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 15%;
+  width: 370px;
+  height: 243px;
+}
+.cardsList {
+  margin-top: 5%;
+  list-style: none;
+}
+
+.cardsList h1 {
+  color: var(--color-grey-7);
+  margin-bottom: 8%;
+}
+
+.cardsList p {
+  color: rgba(255, 255, 255, 0.6);
+}
+.divCards-bt {
+  margin-top: 8%;
+}

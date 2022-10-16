@@ -1,0 +1,68 @@
+.bt-email {
+  width: 60px;
+  height: 32px;
+  color: var(--color-grey-7);
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+}
+.bt-changeUser {
+  width: 130px;
+  height: 32px;
+  margin-left: 10px;
+  border: none;
+  color: var(--color-grey-7);
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+}
+.bt-email:hover {
+  background: var(--color-brand-1);
+  border: 1px solid var(--color-brand-1);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.bt-changeUser:hover {
+  background: var(--color-brand-1);
+  border: 1px solid var(--color-brand-1);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bt-repository {
+  width: 93px;
+  height: 28px;
+  color: var(--color-grey-7);
+  background: transparent;
+  border: 1px solid var(--color-grey-7);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.bt-demo {
+  width: 56px;
+  height: 28px;
+  color: var(--color-grey-7);
+  background: transparent;
+  border: 1px solid var(--color-grey-7);
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.bt-demo a {
+  text-decoration: none;
+  color: var(--color-grey-7);
+}
+
+.bt-repository a {
+  text-decoration: none;
+  color: var(--color-grey-7);
+}
+.bt-repository:hover {
+  background: var(--color-brand-1);
+  border: 1px solid var(--color-brand-1);
+  border-radius: 4px;
+}
+.bt-demo:hover {
+  background: var(--color-brand-1);
+  border: 1px solid var(--color-brand-1);
+  border-radius: 4px;
+}
