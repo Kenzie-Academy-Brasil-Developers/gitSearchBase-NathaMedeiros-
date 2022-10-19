@@ -2,7 +2,7 @@
   padding-top: 20%;
   padding-left: 8%;
   width: 50%;
-  height: 800px;
+  height:100vh;
   background-color: var(--color-brand-1);
 }
 .section-search {
@@ -17,15 +17,14 @@
 .section-search p {
   font-size: 20px;
   line-height: 30px;
-  margin-bottom: 8%;
-  width: 70%;
-  width: 85%;
+  margin-bottom: 25px;
+  width: 385px;
 }
 .divProfiles {
-  width: 83%;
+  width: 365px;
   align-items: center;
   display: flex;
-  gap: 3%;
+  gap: 10px;
 }
 .divProfiles p {
   font-size: 1rem;

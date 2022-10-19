@@ -3,8 +3,9 @@
   height: 32px;
   color: var(--color-grey-7);
   border: none;
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--color-brand-1);
   border-radius: 8px;
+  cursor: pointer;
 }
 .bt-changeUser {
   width: 130px;
@@ -15,12 +16,7 @@
   background: rgba(255, 255, 255, 0.08);
   border-radius: 8px;
 }
-.bt-email:hover {
-  background: var(--color-brand-1);
-  border: 1px solid var(--color-brand-1);
-  border-radius: 4px;
-  cursor: pointer;
-}
+
 .bt-changeUser:hover {
   background: var(--color-brand-1);
   border: 1px solid var(--color-brand-1);
